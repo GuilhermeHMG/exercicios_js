@@ -19,4 +19,4 @@ divisaoFunction(10, 30);
 function multiFunction (num3, num4){
     console.log(num3 * num4);
 }
-multiFunction(10, 30);
+multiFunction(10, 20);
