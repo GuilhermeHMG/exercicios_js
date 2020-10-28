@@ -1,22 +1,21 @@
-console.log("***** Calculadora usando função v1.0 *****");
 
-function somaFunction (num3, num4){
-    console.log(num3 + num4);
+//Função anônima
+const imprimirSoma = function(a, b){          
+    console.log(a + b);
 }
-somaFunction(10, 30);
+imprimirSoma(10, 30);
 
-function subtracaoFunction (num3, num4){
-    console.log(num3 - num4);
+const imprimirSubtracao = function(a, b){
+    console.log(a - b);
 }
-subtracaoFunction(10, 30);
+imprimirSubtracao(10, 30);
 
-function divisaoFunction (num3, num4){
-    console.log((num3 / num4).toFixed(2));
-    //console.log(num3 / num4); //Número flutuante sem formatação
+const imprimirMulti = function(a, b){
+    console.log(a * b);
 }
-divisaoFunction(10, 30);
+imprimirMulti(10, 30);
 
-function multiFunction (num3, num4){
-    console.log(num3 * num4);
+const imprimirDivisao = function(a, b){
+    console.log((a / b).toFixed(2));
 }
-multiFunction(10, 20);
+imprimirDivisao(10, 30);
